@@ -355,7 +355,7 @@ from mysql.connector import errorcode
 import easygui as eg
 
 try:
-	con = mysql.connector.connect(user='root', password='efsdvvc2', host='127.0.0.1', database='main')
+	con = mysql.connector.connect(user='root', password='*******', host='127.0.0.1', database='main')
 except mysql.connector.Error as err:
   if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
     print("Something is wrong with your user name or password")
